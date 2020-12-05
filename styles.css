@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  padding: 100px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.firstDiv {
+  display: flex;
+}
+
+button,
+.result {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.zero {
+  width: 206px;
+}
+
+.equal,
+.operator {
+  background-color: #fe8e00;
+}
+.equal:hover {
+  background-color: rgb(70, 97, 187);
+}
+.equal:active {
+  box-shadow: inset 2px 5px 10px rgb(29, 51, 124);
+}
+.operator:hover {
+  background-color: rgb(70, 97, 187);
+}
+.operator:active {
+  box-shadow: inset 2px 5px 10px rgb(29, 51, 124);
+}
+
+.number {
+  background-color: #363439;
+}
+.number:hover {
+  background-color: rgb(187, 70, 70);
+}
+.number:active {
+  background-color: rgb(187, 70, 70);
+  box-shadow: inset 2px 5px 10px rgb(104, 26, 26);
+}
+
+.clear {
+  background-color: #a7aab1;
+}
+.clear:hover {
+  background-color: #8546c4;
+}
+.clear:active {
+  box-shadow: inset 2px 5px 10px #451477;
+}
+
+.result {
+  width: 300px;
+  cursor: default;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 7px;
+  padding-right: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: inset 2px 5px 10px rgb(0, 0, 0, 0.5);
+}
